@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Satisfy&display=swap&subset=cyrillic,hebrew,latin-ext");
+
+:root {
+  --background-color: #fcfcfc;
+  --font-color: #4a4a4a;
+  --primary-color: #7194db;
+  --primary-color-light: #ebf0fa;
+  --primary-color-light-2: #c2d1f0;
+  --error-color: #ED5967;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  min-height: 100%;
+  color: var(--font-color);
+  padding: 0;
+}
+
+a,
+a:visited {
+  color: var(--font-color);
+}
